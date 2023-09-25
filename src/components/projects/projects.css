@@ -1,0 +1,135 @@
+.project-container{
+    overflow: hidden;
+    width: 95%;
+    height: 150vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 180%;
+}
+
+.section-container{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.project-img{
+    width: 50%;
+    height: 40vh;
+}
+.project-box-braids h1{
+    padding: 0;
+    margin: 1%;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 13%;
+}
+.project-box-braids p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.links{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 8vh;
+}
+.projects-github-logo{
+    width: 30px;
+    height: 30px;
+}
+.cta {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    height: 5vh;
+}
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #fd17a5;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+.cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+}
+.cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+.cta:hover:before {
+    width: 100%;
+    background: #8a0ab4;
+}
+.cta:hover svg {
+    transform: translateX(0);
+}
+.cta:active {
+    transform: scale(0.95);
+}
+.card-project {
+    width: 190px;
+    height: 254px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+    background: #fff;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+    margin-top: 3%;
+    border: 2px solid #c3c6ce;
+}
+.card-project::before {
+    content: 'JavaScript React CSS';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.card-project div {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+    background-color: #fff;
+    border: 2px solid #c3c6ce;
+}
+.card-project:hover div {
+    transform: translateY(-30px);
+}

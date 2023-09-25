@@ -1,0 +1,6 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: url('./components//assets//svg/layered-waves-haikei.svg');
+    background-size: cover;
+    background-attachment: fixed;
+    }
