@@ -1,3 +1,10 @@
+@media screen and (min-width: 992px){
+.switch{
+    display: none;
+}
+.mobile-img-working{
+    display: none;
+}
 .navbar-container{
     position: absolute;
     display: flex;
@@ -14,13 +21,13 @@
 }
 .img-working{
     position: relative;
-    width: 10%;
-    height: 10vh;
+    width: 5%;
+    height: 8vh;
 }
 .list-container{
     position: relative;
     background: none;
-    width: 80%;
+    width: 50%;
     height: 8vh;
     display: flex;
     justify-content: center;
@@ -52,16 +59,19 @@
     align-items: center;
     padding: 0;
     margin: 0;
+    cursor: pointer;
 }
 
 .icon-text-container {
     display: flex;
     align-items: center;
+    
 }
 
 .element-list {
     width: 21px; 
-    height: 6vh;padding: 0;
+    height: 6vh;
+    padding: 0;
     margin-top: 2px;
     color: black;
     margin-right: 4px;
@@ -74,5 +84,42 @@
     font-size: 22px;
     font-weight: 500;
     color: black;
+    
+}
+.navbutton{
+    padding: 5px 10px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    position: relative;
+    font-weight: 700;
+    font-size: 17px;
+    background: none;
+    transition: all 250ms;
+    overflow: hidden;
+    cursor: pointer;
+}
+.navbutton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
 }
 
+.navbutton:hover {
+    color: #e8e8e8;
+}
+
+.navbutton:hover::before {
+    width: 100%;
+}
+
+}

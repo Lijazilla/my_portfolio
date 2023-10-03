@@ -4,3 +4,14 @@ body {
     background-size: cover;
     background-attachment: fixed;
     }
+
+
+    @media screen and (max-width: 720px){
+        body {
+            font-family: 'Oswald', sans-serif;
+            background-image: url('./components//assets//svg/mobile-layered-waves-haikei\ \(1\).svg');
+            background-size: cover;
+            background-attachment: fixed;
+        
+            }
+    }
