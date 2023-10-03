@@ -2,39 +2,42 @@
 .project-container{
     overflow: hidden;
     width: 98%;
-    height: 150vh;
+    height: 200vh;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5%;
-    top: 180%;
+    gap: 3%;
+    margin-top: 180vh;
 }
 .section-container{
     position: relative;
-    width: 95%;
-    height: 40vh;
+    width: 97%;
+    height: 45vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 15%;
+    gap: 2%;
     
 }
 .image-container{
     position: relative;
-    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     height: 40vh;
     object-fit: cover;
     right: 0%;
 }
 .project-img{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     object-fit: contain;
 }
 .box-braids-project-img{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     object-fit: contain;
 }
 .links{
@@ -47,6 +50,7 @@
     height: 8vh;
 }
 .projects-github-logo{
+    display: flex;
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -106,23 +110,33 @@
     transform: scale(0.95);
 }
 .card-project {
-    width: 350px;
-    height: 254px;
+    width: 50%;
+    height: 40vh;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
     background: #fff;
     display: flex;
     border-radius: 20px;
     justify-content: center;
+    align-items: center;
     position: relative;
     transition: all .4s;
     border: 2px solid #c3c6ce;
-    top: 10%;
+    top: 0%;
+}
+.info-project{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .info-project h1{
-    margin-left: 5%;
+    left: 15%;
+    margin: 0;
+    font-size: 1.2em;
 }
 .info-project p{
-    margin-left: 3%;
+    font-size: 1em;
 }
 
 .card-project::before {

@@ -12,13 +12,13 @@ const Navbar = () => {
 
     const [handleResponsiveMenu, setHandleResponsiveMenu] = useState(false);
     const menuRef = useRef(null)
+    const inputRef = useRef(null);
 
     const toggleResponsiveBarMenu = () => {
-        setHandleResponsiveMenu(true);
-        if (handleResponsiveMenu){
-            setHandleResponsiveMenu(false);
-        };
+        setHandleResponsiveMenu((prevValue) => !prevValue);
+        
     };
+    
 
     const handleClickOutside = (event) => {
         if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -45,7 +45,7 @@ const Navbar = () => {
             
             {/*Mobile Menu*/}
             <div className="switch"  onClick={()=> toggleResponsiveBarMenu()} ref={menuRef}>
-                <input type="checkbox"/>
+                <input ref={inputRef} type="checkbox"/>
                 <div>
                     <span className="line-1"></span>
                     <span className="line-2"></span>
@@ -55,42 +55,42 @@ const Navbar = () => {
 
             {/*Mobile Menu*/}
             {handleResponsiveMenu ? 
-            <div className='mobile-list-container'>
-            <ul className='mobile-ul-list-container'>
-                <li className='mobile-navbar-li'>
-                    <a>
-                        <li className='mobile-icon-text-container'>
-                            <img src={homeSVG} className='mobile-element-list' />
-                            <span className='mobile-text-li'><button className='mobile-navbutton'>Home</button></span>
-                        </li>
-                    </a>
-                </li>
-                <li className='mobile-navbar-li'>
-                    <a>
-                        <div className='mobile-icon-text-container'>
-                            <img src={personSVG} className='mobile-element-list' />
-                            <span className='mobile-text-li'><button className='mobile-navbutton'>About</button></span>
-                        </div>
-                    </a>
-                </li>
-                <li className='mobile-navbar-li'>
-                    <a>
-                        <div className='mobile-icon-text-container'>
-                            <img src={webpageSVG} className='mobile-element-list' />
-                            <span className='mobile-text-li'><button className='mobile-navbutton'>Projects</button></span>
-                        </div>
-                    </a>
-                </li>
-                <li className='mobile-navbar-li'>
-                    <a>
-                        <div className='mobile-icon-text-container'>
-                            <img src={resumeSVG} className='mobile-element-list' />
-                            <span className='mobile-text-li'><button className='mobile-navbutton'>Resume</button></span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>: null
+            <div className='mobile-list-container active'>
+                <ul className='mobile-ul-list-container'>
+                    <li className='mobile-navbar-li'>
+                        <a>
+                            <li className='mobile-icon-text-container'>
+                                <img src={homeSVG} className='mobile-element-list' />
+                                <span className='mobile-text-li'><button className='mobile-navbutton'>Home</button></span>
+                            </li>
+                        </a>
+                    </li>
+                    <li className='mobile-navbar-li'>
+                        <a>
+                            <div className='mobile-icon-text-container'>
+                                <img src={personSVG} className='mobile-element-list' />
+                                <span className='mobile-text-li'><button className='mobile-navbutton'>About</button></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li className='mobile-navbar-li'>
+                        <a>
+                            <div className='mobile-icon-text-container'>
+                                <img src={webpageSVG} className='mobile-element-list' />
+                                <span className='mobile-text-li'><button className='mobile-navbutton'>Projects</button></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li className='mobile-navbar-li'>
+                        <a>
+                            <div className='mobile-icon-text-container'>
+                                <img src={resumeSVG} className='mobile-element-list' />
+                                <span className='mobile-text-li'><button className='mobile-navbutton'>CV    </button></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>: null
             }
 
             {/*Desktop Menu*/}

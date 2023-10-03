@@ -1,5 +1,6 @@
 import React from "react";
 import './projects.css'
+import './mobile-projects.css'
 import githublogo from '../assets/svg/github-142-svgrepo-com.svg'
 
 const Projects = () => {
@@ -12,7 +13,7 @@ const Projects = () => {
                 </div>
                 
                 <div className="card-project">
-                    <div className="text-card info-project">
+                    <div className="info-project">
                         <h1>Box Braids México</h1>
                         <p>A page that i did for a business friend, i used all the tech in my knowledge to create this landing page.</p>
                         
@@ -38,7 +39,7 @@ const Projects = () => {
                 
                 <div className="card-project">
                     <div className="info-project">
-                        <h1>Report Document</h1>
+                        <h1>Document Report</h1>
                         <p>This App lets you create a Report Document with images, you can add date, title, text body, images and more.</p>
                         
                         <section className="links">
