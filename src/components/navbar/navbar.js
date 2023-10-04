@@ -19,7 +19,6 @@ const Navbar = () => {
         
     };
     
-
     const handleClickOutside = (event) => {
         if (menuRef.current && !menuRef.current.contains(event.target)) {
           // El clic ocurrió fuera del menú, así que cerramos el menú
@@ -27,7 +26,7 @@ const Navbar = () => {
         }
     };
     
-        useEffect(() => {
+    useEffect(() => {
         // Agregar un event listener para detectar clics en el documento
         document.addEventListener('click', handleClickOutside);
     
@@ -37,7 +36,6 @@ const Navbar = () => {
         };
     }, []);
 
-    
     return(
         <nav className='navbar-container'>
             <img src={alxLogo} className='img-working' alt='workingDesk'/>
@@ -66,7 +64,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='mobile-navbar-li'>
-                        <a>
+                        <a href='#about'>
                             <div className='mobile-icon-text-container'>
                                 <img src={personSVG} className='mobile-element-list' />
                                 <span className='mobile-text-li'><button className='mobile-navbutton'>About</button></span>
@@ -74,7 +72,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='mobile-navbar-li'>
-                        <a>
+                        <a href='#projects'>
                             <div className='mobile-icon-text-container'>
                                 <img src={webpageSVG} className='mobile-element-list' />
                                 <span className='mobile-text-li'><button className='mobile-navbutton'>Projects</button></span>
@@ -85,7 +83,7 @@ const Navbar = () => {
                         <a>
                             <div className='mobile-icon-text-container'>
                                 <img src={resumeSVG} className='mobile-element-list' />
-                                <span className='mobile-text-li'><button className='mobile-navbutton'>CV    </button></span>
+                                <span className='mobile-text-li'><button className='mobile-navbutton'>CV</button></span>
                             </div>
                         </a>
                     </li>
@@ -105,7 +103,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='navbar-li'>
-                        <a>
+                        <a href='#about'>
                             <div className='icon-text-container'>
                                 <img src={personSVG} className='element-list' />
                                 <span className='text-li'><button className='navbutton'>About</button></span>
@@ -113,7 +111,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='navbar-li'>
-                        <a>
+                        <a href='#projects'>
                             <div className='icon-text-container'>
                                 <img src={webpageSVG} className='element-list' />
                                 <span className='text-li'><button className='navbutton'>Projects</button></span>

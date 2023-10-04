@@ -91,7 +91,7 @@ const About_me = () => {
 
                 </section>
 
-                <section className="container-aboutme">
+                <section className="container-aboutme" id="about">
                     <img className="coding-image" src="https://images.pexels.com/photos/574080/pexels-photo-574080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="coding-frontend"/>
 
                     <div className="card">

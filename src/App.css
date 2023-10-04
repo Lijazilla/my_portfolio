@@ -1,17 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
+    
     font-family: 'Oswald', sans-serif;
     background-image: url('./components//assets//svg/layered-waves-haikei.svg');
     background-size: cover;
     background-attachment: fixed;
+    scroll-behavior: smooth;
     }
 
-
-    @media screen and (max-width: 720px){
-        body {
-            font-family: 'Oswald', sans-serif;
-            background-image: url('./components//assets//svg/mobile-layered-waves-haikei\ \(1\).svg');
-            background-size: cover;
-            background-attachment: fixed;
-        
-            }
+#scrollTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
     }
+    
+#scrollTopButton:hover {
+    background-color: #0056b3;
+    }
+
+@media screen and (max-width: 720px){
+    body {
+        font-family: 'Oswald', sans-serif;
+        background-image: url('./components//assets//svg/mobile-layered-waves-haikei\ \(1\).svg');
+        background-size: cover;
+        background-attachment: fixed;
+    
+        }
+    #scrollTopButton{
+        display: none;
+    }
+}
