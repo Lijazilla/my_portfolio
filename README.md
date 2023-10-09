@@ -1,7 +1,5 @@
 ## Box Braids Landing Page
 
-![Screenshot](screenshot.png)
-
 Welcome to the Box Braids landing page! This is a simple landing page created for a hair braiding service, designed to provide users with information and a way to request a service quote.
 
 ## Project Overview
@@ -19,7 +17,7 @@ This landing page was built using JavaScript with React, HTML, and CSS. It featu
 
 To view the Box Braids landing page, simply navigate to the following URL:
 
-[Box Braids Landing Page](https://your-website-url.com)
+[Box Braids Landing Page](https://lijazilla.github.io/box-braids/build/)
 
 There is no need to install anything; just open the page in your web browser to explore the services offered.
 
