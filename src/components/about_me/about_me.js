@@ -47,7 +47,7 @@ const About_me = () => {
                             </button>
                             </a>
 
-                            <a href="https://www.linkedin.com/in/alejandro-jimenez-796542169" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/alexjimenez1986" target="_blank" rel="noopener noreferrer">
                                 <img src={linkedInLogo} alt="linkedin" className="linkedin" />
                             </a>
 
@@ -103,7 +103,9 @@ const About_me = () => {
                                 managing teams and client service for more than 10 years in another administrative areas.
                             </p>
                         </div>
-                        <button className="card-button">Contact Me</button>
+                        <a href="https://www.linkedin.com/in/alexjimenez1986" target="_blank" rel="noopener noreferrer">
+                            <button className="card-button">Contact Me</button>
+                        </a>
                     </div>
 
                 </section>

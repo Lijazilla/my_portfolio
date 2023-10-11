@@ -78,7 +78,9 @@ const Projects = () => {
                         <p>This App gives you the wheather from the city you type.</p>
                         
                         <section className="links">
-                            <img src={githublogo} className="projects-github-logo"/>
+                            <a href="https://github.com/Lijazilla/weather-app" target="_blank" rel="noopener noreferrer">
+                                <img src={githublogo} className="projects-github-logo"/>
+                            </a>
                             <button className="cta">
                             <a href="https://lijazilla.github.io/weather-app/build/" target="_blank" rel="noopener noreferrer">
                                 <span>Go to Page</span>
