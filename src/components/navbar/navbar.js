@@ -58,7 +58,7 @@ const Navbar = () => {
                     <li className='mobile-navbar-li'>
                         <a href='#about'>
                             <li className='mobile-icon-text-container'>
-                                <img src={personSVG} className='mobile-element-list' />
+                                <img src={personSVG} className='mobile-element-list' alt='Aboutme' />
                                 <span className='mobile-text-li'><button className='mobile-navbutton'>About</button></span>
                             </li>
                         </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
                     <li className='mobile-navbar-li'>
                         <a href='#projects'>
                             <div className='mobile-icon-text-container'>
-                                <img src={webpageSVG} className='mobile-element-list' />
+                                <img src={webpageSVG} className='mobile-element-list' alt='Frontend Projects'/>
                                 <span className='mobile-text-li'><button className='mobile-navbutton'>Projects</button></span>
                             </div>
                         </a>
@@ -74,7 +74,7 @@ const Navbar = () => {
                     <li className='mobile-navbar-li'>
                         <a href="https://drive.google.com/file/d/19azL-fEiFAGxwy6VMiZ48r5MIpOIztYx/view?usp=sharing" target="_blank">
                             <div className='mobile-icon-text-container'>
-                                <img src={resumeSVG} className='mobile-element-list' />
+                                <img src={resumeSVG} className='mobile-element-list' alt='Frontent Resume'/>
                                 <span className='mobile-text-li'><button className='mobile-navbutton'>CV ES</button></span>
                             </div>
                         </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
                     <li className='mobile-navbar-li'>
                         <a href='https://drive.google.com/file/d/1mqstUsLGQDa9IbUyyzI0RkCvm5ZI_skO/view?usp=sharing' target='_blank'>
                             <div className='mobile-icon-text-container'>
-                                <img src={resumeSVG} className='mobile-element-list' />
+                                <img src={resumeSVG} className='mobile-element-list' alt='Frontend Resume'/>
                                 <span className='mobile-text-li'><button className='mobile-navbutton'>CV EN</button></span>
                             </div>
                         </a>
@@ -97,7 +97,7 @@ const Navbar = () => {
                     <li className='navbar-li'>
                         <a href='#about'>
                             <div className='icon-text-container'>
-                                <img src={personSVG} className='element-list' />
+                                <img src={personSVG} className='element-list' alt='about me' />
                                 <span className='text-li'><button className='navbutton'>About</button></span>
                             </div>
                         </a>
@@ -105,7 +105,7 @@ const Navbar = () => {
                     <li className='navbar-li'>
                         <a href='#projects'>
                             <div className='icon-text-container'>
-                                <img src={webpageSVG} className='element-list' />
+                                <img src={webpageSVG} className='element-list' alt='Frontend Projects'/>
                                 <span className='text-li'><button className='navbutton'>Projects</button></span>
                             </div>
                         </a>
@@ -113,7 +113,7 @@ const Navbar = () => {
                     <li className='navbar-li'>
                         <a href="https://drive.google.com/file/d/19azL-fEiFAGxwy6VMiZ48r5MIpOIztYx/view?usp=sharing" target="_blank">
                             <div className='icon-text-container'>
-                                <img src={resumeSVG} className='element-list' />
+                                <img src={resumeSVG} className='element-list' alt='Frontend Resume'/>
                                 <span className='text-li'><button className='navbutton'>CV ES</button></span>
                             </div>
                         </a>
@@ -121,7 +121,7 @@ const Navbar = () => {
                     <li className='navbar-li'>
                         <a href='https://drive.google.com/file/d/1mqstUsLGQDa9IbUyyzI0RkCvm5ZI_skO/view?usp=sharing' target='_blank'>
                             <div className='icon-text-container'>
-                                <img src={resumeSVG} className='element-list' />
+                                <img src={resumeSVG} className='element-list' alt='Frontend Resume'/>
                                 <span className='text-li'><button className='navbutton'>CV EN</button></span>
                             </div>
                         </a>

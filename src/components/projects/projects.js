@@ -9,7 +9,7 @@ const Projects = () => {
 
             <section className="section-container">
                 <div className="image-container">
-                    <img src="https://i.imgur.com/iKeOPjC.png" className="box-braids-project-img" alt="project-img"/>
+                    <img src="https://i.imgur.com/iKeOPjC.png" className="box-braids-project-img" alt="Frontend Landing Page Project"/>
                 </div>
                 
                 <div className="card-project">
@@ -38,7 +38,7 @@ const Projects = () => {
 
             <section className="section-container">
                 <div className="image-container">
-                    <img src="https://i.imgur.com/PMYYTIK.png" className="pdf-project-img" alt="project-img"/>
+                    <img src="https://i.imgur.com/PMYYTIK.png" className="pdf-project-img" alt="Frontend PDF Creator Project"/>
                 </div>
                 
                 <div className="card-project">
@@ -50,7 +50,7 @@ const Projects = () => {
                         
                         <section className="links">
                             <a href="https://github.com/Lijazilla/document-pdf" target="_blank" rel="noopener noreferrer">
-                                <img src={githublogo} className="projects-github-logo"/>
+                                <img src={githublogo} className="projects-github-logo" alt="github"/>
                             </a>
                             <button className="pdf-cta">
                             <a href="https://lijazilla.github.io/document-pdf/build/" target="_blank" rel="noopener noreferrer">
@@ -69,7 +69,7 @@ const Projects = () => {
 
             <section className="section-container">
                 <div className="image-container">
-                    <img src="https://i.imgur.com/8gnnpBD.png" className="project-img" alt="project-img"/>
+                    <img src="https://i.imgur.com/8gnnpBD.png" className="project-img" alt="Frontend Project"/>
                 </div>
                 
                 <div className="card-project">
