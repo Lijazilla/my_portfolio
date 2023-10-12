@@ -2,6 +2,9 @@
 .switch{
     display: none;
 }
+.sendToPdfFiller{
+    display: none;
+}
 .mobile-img-working{
     display: none;
 }

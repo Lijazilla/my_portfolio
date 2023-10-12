@@ -56,19 +56,11 @@ const Navbar = () => {
             <div className='mobile-list-container active'>
                 <ul className='mobile-ul-list-container'>
                     <li className='mobile-navbar-li'>
-                        <a>
-                            <li className='mobile-icon-text-container'>
-                                <img src={homeSVG} className='mobile-element-list' />
-                                <span className='mobile-text-li'><button className='mobile-navbutton'>Home</button></span>
-                            </li>
-                        </a>
-                    </li>
-                    <li className='mobile-navbar-li'>
                         <a href='#about'>
-                            <div className='mobile-icon-text-container'>
+                            <li className='mobile-icon-text-container'>
                                 <img src={personSVG} className='mobile-element-list' />
                                 <span className='mobile-text-li'><button className='mobile-navbutton'>About</button></span>
-                            </div>
+                            </li>
                         </a>
                     </li>
                     <li className='mobile-navbar-li'>
@@ -80,10 +72,18 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='mobile-navbar-li'>
-                        <a>
+                        <a href="https://drive.google.com/file/d/19azL-fEiFAGxwy6VMiZ48r5MIpOIztYx/view?usp=sharing" target="_blank">
                             <div className='mobile-icon-text-container'>
                                 <img src={resumeSVG} className='mobile-element-list' />
-                                <span className='mobile-text-li'><button className='mobile-navbutton'>CV</button></span>
+                                <span className='mobile-text-li'><button className='mobile-navbutton'>CV ES</button></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li className='mobile-navbar-li'>
+                        <a href='https://drive.google.com/file/d/1mqstUsLGQDa9IbUyyzI0RkCvm5ZI_skO/view?usp=sharing' target='_blank'>
+                            <div className='mobile-icon-text-container'>
+                                <img src={resumeSVG} className='mobile-element-list' />
+                                <span className='mobile-text-li'><button className='mobile-navbutton'>CV EN</button></span>
                             </div>
                         </a>
                     </li>
@@ -94,14 +94,6 @@ const Navbar = () => {
             {/*Desktop Menu*/}
             <div className='list-container'>
                 <ul className='ul-list-container'>
-                    <li className='navbar-li'>
-                        <a>
-                            <div className='icon-text-container'>
-                                <img src={homeSVG} className='element-list' />
-                                <span className='text-li'><button className='navbutton'>Home</button></span>
-                            </div>
-                        </a>
-                    </li>
                     <li className='navbar-li'>
                         <a href='#about'>
                             <div className='icon-text-container'>
@@ -119,10 +111,18 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='navbar-li'>
-                        <a>
+                        <a href="https://drive.google.com/file/d/19azL-fEiFAGxwy6VMiZ48r5MIpOIztYx/view?usp=sharing" target="_blank">
                             <div className='icon-text-container'>
                                 <img src={resumeSVG} className='element-list' />
-                                <span className='text-li'><button className='navbutton'>Resume</button></span>
+                                <span className='text-li'><button className='navbutton'>CV ES</button></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li className='navbar-li'>
+                        <a href='https://drive.google.com/file/d/1mqstUsLGQDa9IbUyyzI0RkCvm5ZI_skO/view?usp=sharing' target='_blank'>
+                            <div className='icon-text-container'>
+                                <img src={resumeSVG} className='element-list' />
+                                <span className='text-li'><button className='navbutton'>CV EN</button></span>
                             </div>
                         </a>
                     </li>
