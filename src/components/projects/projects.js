@@ -69,7 +69,7 @@ const Projects = () => {
 
             <section className="section-container">
                 <div className="image-container">
-                    <img src="https://i.imgur.com/OZnQZig.png" className="project-img" alt="project-img"/>
+                    <img src="https://i.imgur.com/8gnnpBD.png" className="project-img" alt="project-img"/>
                 </div>
                 
                 <div className="card-project">
