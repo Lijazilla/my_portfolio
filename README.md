@@ -10,7 +10,7 @@ My Portfolio serves as a demonstration of my web development skills. It allows y
 
 You can easily access the portfolio by visiting the GitHub Pages website at the following link:
 
-[My Portfolio](https://yourgithubusername.github.io/my-portfolio)
+[My Portfolio](https://lijazilla.github.io/my_portfolio/build/)
 
 Simply navigate through the site using your mouse to interact with the different elements and explore the content.
 
@@ -29,7 +29,7 @@ This project is under a generic open-source license.
 
 ## Author
 
-- [Your Name](https://github.com/yourgithubusername)
+- [Manuel Alejandro Jiménez Fuentes](https://github.com/Lijazilla)
 
 ## Project Status
 
@@ -42,6 +42,4 @@ I welcome your feedback and suggestions to help enhance the project.
 Thank you for visiting my portfolio!
 
 ---
-
-*Note: This README serves as a template and may require adjustments to suit your specific project and preferences.*
 
